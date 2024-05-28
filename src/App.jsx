@@ -3,7 +3,7 @@ import Card from "./components/Card";
 import SearchBar from "./components/SearchBar";
 // import Filter from "./components/Filter";
 import TotalChallenges from "./components/TotalChallenges";
-import challengesData from "./data/repositorios_frontend.json";
+import challengesData from "./data/updated_repositorios_frontend.json";
 
 const App = () => {
   const [filteredChallenges, setFilteredChallenges] = useState([]);
@@ -44,9 +44,18 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <div className="flex gap-x-2 items-center justify-start w-full h-20">
-        <img src="/logo-black.svg" width={32} alt="Logo Desafios Front-end" />
-        <h1 className="text-xl font-bold">Desafios Front-end</h1>
+      <div className="flex gap-x-2 items-center justify-start w-full h-20 mb-10 mt-10">
+        <div className="flex flex-col gap-y-2 justify-start items-start">
+          <div className="flex gap-x-2 items-center justify-center">
+            <img
+              src="/logo-black.svg"
+              width={32}
+              alt="Logo Desafios Front-end"
+            />
+            <h1 className="text-xl font-bold">Desafios Front-end</h1>
+          </div>
+          <p>Busque por repositórios do GitHub com desafios front-end.</p>
+        </div>
       </div>
       <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <div className="flex justify-between items-end">
