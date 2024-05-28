@@ -1,8 +1,10 @@
-# React + Vite
+# Desafios Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **Desafios Front-end**! Este é um site agregador de desafios de programação front-end que estão disponíveis em repositórios do GitHub. Nosso objetivo é ajudar desenvolvedores a melhorar suas habilidades em desenvolvimento front-end através da resolução de diversos desafios.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework de CSS para estilização rápida e responsiva.
+- **JavaScript**: Linguagem de programação utilizada no desenvolvimento do site.
