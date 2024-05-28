@@ -76,7 +76,7 @@ const App = () => {
       <div className="mt-4 flex justify-between items-center">
         <button
           onClick={() => setPage(page > 1 ? page - 1 : 1)}
-          className="bg-gray-300 text-gray-700 px-4 py-2 rounded"
+          className="bg-blue-500 hover:bg-blue-400 text-white px-4 py-2 rounded"
           disabled={page === 1}>
           Anterior
         </button>
@@ -85,7 +85,7 @@ const App = () => {
         </span>
         <button
           onClick={() => setPage(page + 1)}
-          className="bg-gray-300 text-gray-700 px-4 py-2 rounded"
+          className="text-white bg-blue-500 hover:bg-blue-400 px-4 py-2 rounded"
           disabled={page === totalPages}>
           Próximo
         </button>
